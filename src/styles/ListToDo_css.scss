@@ -1,0 +1,40 @@
+.list_To_Do {
+    .Add_Button {
+        cursor: pointer;
+    }
+
+    .child_todo {
+        border-bottom: 2px solid gray;
+        padding-bottom: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+
+
+        .Edit_button {
+            height: fit-content;
+            width: fit-content;
+            margin-left: 5px;
+            margin-right: 10px;
+            text-align: center;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: black;
+            font-style: normal;
+            border: 2px;
+            cursor: pointer;
+        }
+
+        .Delete_button {
+            height: fit-content;
+            width: fit-content;
+            margin-left: 10px;
+            margin-right: 15px;
+            text-align: center;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: black;
+            border: 2px;
+            cursor: pointer;
+
+        }
+
+    }
+}
